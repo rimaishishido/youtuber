@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+
+    function sound1(){
+    document.getElementById("出題").play();
+    }
+    function sound2(){
+    document.getElementById("正解").play();
+    }
+    function sound3(){
+    document.getElementById("不正解").play();
+    }
+    function sound4(){
+    document.getElementById("歓声").play();
+    }
+    function sound5(){
+    document.getElementById("チーン").play();
+    }
+    function sound6(){
+    document.getElementById("ダダンッ").play();
+    }
+    function sound7(){
+    document.getElementById("ガーン").play();
+    }
+    function sound8(){
+    document.getElementById("トランペット").play();
+    }
+    function sound9(){
+    document.getElementById("BGM").play();
+    }
+    function sound10(){
+    document.getElementById("BGM").pause();
+    }
+    </script>
+     
+    <style>
+    body {
+    background: #ffffff;
+    }
+    
+    </style>
+    
+</head>
+
+<body>
+<a name="sound.html"></a>
+
+<audio id="出題" preload="auto"><source src="shutsudai.mp3" type="audio/mp3"></audio>
+<audio id="正解" preload="auto"><source src="correct1.mp3" type="audio/mp3"></audio>
+<audio id="不正解" preload="auto"><source src="incorrect1.mp3" type="audio/mp3"></audio>
+<audio id="歓声" preload="auto"><source src="kansei.mp3" type="audio/mp3"></audio>
+<audio id="チーン" preload="auto"><source src="tin1.mp3" type="audio/mp3"></audio>
+<audio id="ダダンッ" preload="auto"><source src="drum-japanese2.mp3" type="audio/mp3"></audio>
+<audio id="ガーン" preload="auto"><source src="shock.mp3" type="audio/mp3"></audio>
+<audio id="トランペット" preload="auto"><source src="trumpet1.mp3" type="audio/mp3"></audio>
+<audio id="BGM" preload="auto" loop><source src="koppepan.mp3" type="audio/mp3"></audio>
+
+
+<a onClick="sound1()"><img src="shutsudai.png" width="30%" style="position:absolute;top:20px;left:20px;"></a>
+<a onClick="sound2()"><img src="seikai.png" width="30%" style="position:absolute;top:20px;left:230px;"></a>
+<a onClick="sound3()"><img src="fuseikai.png" width="30%" style="position:absolute;top:20px;left:440px;"></a>
+<a onClick="sound4()"><img src="kansei.png" width="30%" style="position:absolute;top:110px;left:20px;"></a>
+<a onClick="sound5()"><img src="tin.png" width="30%" style="position:absolute;top:110px;left:230px;"></a>
+<a onClick="sound6()"><img src="dadan.png" width="30%" style="position:absolute;top:110px;left:440px;"></a>
+<a onClick="sound7()"><img src="shock.png" width="30%" style="position:absolute;top:200px;left:20px;"></a>
+<a onClick="sound8()"><img src="trumpet.png" width="30%" style="position:absolute;top:200px;left:230px;"></a>
+<a onClick="sound9()"><img src="BGM.png" width="30%" style="position:absolute;top:200px;left:440px;"></a>
+<a onClick="sound10()"><img src="pause.png" width="30%" style="position:absolute;top:290px;left:440px;"></a>
+
+
+
+<a href="index.html#index.html"><img src="home1.png" width="10%" style="position:absolute;top:80%;left:43%;"></a>
+
+
+</body>
+</html>
